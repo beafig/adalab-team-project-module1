@@ -4,7 +4,7 @@ En este proyecto hemos desarrollado nuestra **primera web** colaborativa donde p
 Es nuestra primera experiencia de trabajo en equipo relacionada con programación.
 
 ## Construido con 🛠️
-- **HTML / CSS** - Lenguajes de programación
+- **HTML / CSS** - Lenguajes de marcado y estilo
 - **SASS** - Preprocesador CSS
 - **NPM** - Gestor de dependencias
 
