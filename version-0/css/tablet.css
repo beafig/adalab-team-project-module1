@@ -1,0 +1,148 @@
+@media (min-width: 768px) {
+  .section_2 {
+    position: static;
+    padding: 0;
+  }
+  .section_2 .h2 {
+    color: var(--blue-green-color);
+    margin-top: 45px;
+  }
+  .section_2 .p {
+    margin-bottom: 30px;
+  }
+  .container {
+    margin: 0 45px;
+  }
+  .header {
+    background-color: var(--blue-green-color);
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 45px;
+  }
+
+  .team_name {
+    justify-content: flex-start;
+  }
+
+  .nav_container {
+    background-color: var(--blue-green-color);
+    padding: 0;
+  }
+
+  .nav_list {
+    justify-content: flex-end;
+    gap: 15px;
+  }
+
+  .section_1 .h2 {
+    width: 450px;
+    position: absolute;
+    left: 45px;
+    transform: none;
+    opacity: 0.8;
+    padding: 15px 30px;
+    text-align: left;
+    line-height: 25px;
+  }
+
+  .section_1 .container {
+    width: 100vw;
+    margin: 0 45px;
+  }
+
+  .section_2 {
+    position: static;
+    padding: 0;
+  }
+
+  .section_2 .h2 {
+    color: var(--blue-green-color);
+    margin-top: 45px;
+  }
+
+  .section_2 .p {
+    margin-bottom: 30px;
+  }
+
+  .container {
+    margin: 0 45px;
+  }
+
+  .section_3 .p {
+    font: var(--OpenSans_regular_16);
+    color: var(--dark-grey-color);
+    padding-top: 15px;
+  }
+
+  .section_3 .article {
+    line-height: 1.5;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .section_3 .container {
+    margin: 45px 45px;
+    display: flex;
+    flex-direction: row;
+  }
+  /*
+    .footer .container {
+            width: 100vw;
+            margin: 30px 45px 60px 45px;
+            flex-direction: row;
+    }
+
+    .copyright {
+        display: flex;
+        order: 1;
+        margin: 0;
+    }
+
+    .footer_nav {
+        flex-grow: 2;
+        justify-content: flex-end;
+        margin: 0;
+        order: 3;
+    }
+
+    .footer_list {
+        align-items: flex-end;
+    }
+
+    .logo_adalab {
+        display: flex;
+        order: 2;
+        margin: 0;
+    }
+    */
+
+  .footer .container {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    margin: 30px 45px 60px 45px;
+  }
+
+  .copyright {
+    margin: 0;
+    place-self: center start;
+  }
+
+  .logo_adalab {
+    margin: 0;
+    margin-top: 15px;
+  }
+
+  .footer_nav {
+    margin: 0;
+    grid-area: 1 / 2 / span 2;
+    justify-self: end;
+  }
+
+  .footer_list {
+    align-items: end;
+    row-gap: 8px;
+  }
+}
